@@ -1,0 +1,382 @@
+
+.page-header {
+    padding: 20px 40px 10px 40px !important;
+    font-size: 13px;
+}
+
+.text-right .btn {
+    margin-bottom: 1px !important;
+}
+
+.site-menu .site-menu-sub .site-menu-item.active>a {
+  border-right: 3px solid #ff9800 !important;
+}
+
+.site-menu>.site-menu-item.active>a {
+  border-right: 3px solid #ff9800 !important;
+}
+
+.text-right .btn {
+  margin-bottom : 1px !important;
+}
+
+.navbar-header {
+  background: #fff !important;
+}
+
+.site-navbar .navbar-header .hamburger .hamburger-bar, .site-navbar .navbar-header .hamburger:after, .site-navbar .navbar-header .hamburger:before {
+  background-color: #757575 !important;
+}
+
+.md-more {
+  color : #757575 !important;
+}
+
+.navbar-brand-text {
+  color: #413636 !important;
+}
+
+.site-menubar-unfold .site-menu-category {
+    margin-top: 10px !important;
+}
+
+.page-header {
+  padding : 20px 20px 10px 20px !important;
+  font-size : 13px;
+}
+
+.page-title {
+  font-size : 22px;
+}
+
+.page-content {
+  padding : 10px 20px 10px 20px !important;
+}
+
+.ico-btn {
+	margin-right : 5px;
+}
+
+.add-btn-col {
+	margin-bottom : 5px;
+}
+
+.table-condensed > thead > tr > th {
+	padding : 7px !important;
+}
+
+.form-group {
+	margin-bottom : 3px;
+}
+
+.req-star {
+    color : red;
+    padding-left : 0px;
+}
+
+.sp-margin-sm {
+    margin-bottom : 3px;
+}
+
+.sp-margin-md {
+    margin-bottom : 5px;
+}
+
+.sp-margin-lg {
+    margin-bottom : 10px;
+}
+
+.sp-margin-xl {
+    margin-bottom : 15px;
+}
+
+.dataTable a {
+    text-decoration: none !important;
+}
+
+.search-panel {
+  margin-bottom: 10px;
+}
+
+.search-panel .panel-heading .panel-title {
+  font-size : 15px;
+  padding-top :10px;
+  padding-bottom :10px;
+}
+
+.search-panel .panel-body {
+  padding-bottom :10px;
+}
+
+
+.ui-timepicker-wrapper{
+  z-index: 9999 !important;
+}
+
+.btn-drop-item-pending, .btn-drop-item-partial  {
+    background : #c3d62d;
+    color : #FFFFFF !important;
+}
+
+.btn-drop-item-accepted, .btn-drop-item-paid, .btn-drop-item-delivered {
+    background : #00a65a;
+    color : #FFFFFF !important;
+}
+
+.btn-drop-item-rejected, .btn-drop-item-unpaid, .btn-drop-item-undeliver {
+    background : #f39c12;
+    color : #FFFFFF !important;
+}
+
+.btn-drop-item-pending a, .btn-drop-item-accepted a, .btn-drop-item-rejected a,
+.btn-drop-item-unpaid a, .btn-drop-item-partial a, .btn-drop-item-paid a,
+.btn-drop-item-undeliver a, .btn-drop-item-delivered a {
+    color : #FFFFFF !important;
+}
+
+.dp-item {
+  font-size : 12px;
+}
+
+.action-col {
+  min-width: 125px;
+  /*min-width: 200px !important;*/
+}
+
+.date-col {
+  min-width: 63px;
+}
+
+.name-col {
+  min-width : 100px;
+  max-width : 200px;
+}
+
+.sub-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px 0px 10px 0px;
+}
+
+.sub-title-md {
+    font-size: 13px;
+    /*text-transform: uppercase;*/
+    margin: 0px 0px 10px 0px;
+}
+
+.modal-body {
+  padding-top : 5px;
+}
+
+#employee-modal, #employee-view-modal, #payslip-modal, #payslip-view-modal {
+  width : 90%;
+}
+
+.view-link, .edit-link, .delete-link, .print-link, .inv-link,.edit-permission {
+  margin-right : 2px;
+}
+
+#cropContainerMinimal {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-bottom : 22px;
+}
+
+#cropContainerMinimal-stylist {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-bottom : 22px;
+}
+
+.ico-cont {
+  margin-left : 0px !important;
+}
+
+.btn-cont-sm   {
+  padding : 5px 8px 5px 7px !important;
+}
+
+.md-minus-square {
+  color : red;
+}
+
+.view-link, .edit-link, .print-link, .del-link {
+  margin-bottom : 1px;
+}
+
+.col-search {
+    padding-bottom:3px;
+}
+
+/* For Tabs */
+.nav-tabs-solid .active a {
+  background : #62a8ea !important;
+  color : white !important;
+}
+
+.description-col {
+  max-width : 200px;
+}
+
+.text-present {
+  font-size: 13px;
+  color: #d6bcbc;
+  font-style: italic;
+}
+
+.modal-content {
+  background: #fbfbfb !important;
+  border-radius:0px !important;
+}
+
+.pre-desc {
+  font-family: Roboto,sans-serif !important;
+  font-size: 14px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  background: none !important;
+}
+
+.col-search span.select2-container {
+  z-index: 100 !important;
+}
+
+.site-menu-item a {
+  color:#fff !important;
+}
+
+
+#nav-dashboard {
+  background:#881D75 !important;
+}
+#nav-category {
+  background:#E8A200 !important;
+}
+#nav-photo {
+  background:#00838f !important;
+}
+#nav-device, #nav-device .site-menu-sub {
+  background:#E21B22 !important;
+}
+#nav-users, #nav-users .site-menu-sub {
+  background:#334F98 !important;
+}
+/* For Datatables */
+@media (max-width: 480px) {
+  .panel-actions .dataTables_length {
+    display: none;
+  }
+
+  .dataTables_filter > label > input {
+    max-width : 140px !important;
+  }
+}
+@media (max-width: 320px) {
+  .panel-actions .dataTables_filter {
+    display: none;
+  }
+
+  .navbar-brand-text {
+    font-size : 14px;
+  }
+
+  .page-title {
+    font-size : 14px;
+  }
+
+  .breadcrumb {
+    font-size : 12px;
+  }
+
+}
+@media (max-width: 767px) {
+  .dataTables_length {
+    float: left;
+  }
+}
+
+/* End For Datables */
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    padding-left : 2px;
+    padding-right : 10px;
+  }
+
+  .navbar-brand-text {
+    margin-left: 0;
+  }
+}
+
+@media(max-width:992px) {
+   .req-star {
+        padding-left : 15px !important;
+    }
+}
+
+.permission-panel {
+  margin-bottom: 3px;
+}
+
+
+.permission-panel .panel-title {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.permission-panel .panel-body {
+  padding: 13px 21px;
+}
+
+/*modal scroll*/
+.modal{
+   overflow:auto !important;
+}
+
+/*.modal-backdrop {
+   background-color: #37474F;
+}*/
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #17b3a3;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 100000;
+    left: 90%;
+    top: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 60s;
+    animation: fadein 0.5s, fadeout 0.5s 60s;
+}
+
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {top: 30px; opacity: 1;}
+    to {top: 0; opacity: 0;}
+}
