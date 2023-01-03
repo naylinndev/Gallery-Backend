@@ -57,7 +57,9 @@ class CategoryController extends ApiController
                 array_push($arr, [
                     'id' => $category->id,
                     'category_name' => $category->category_name,
-                    'category_image' => $category->category_image
+                    'category_image' => $category->category_image,
+                    'updated_at' => date('d-m-Y h:i A', strtotime($category->updated_at))
+
                 ]);
             }
 

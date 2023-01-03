@@ -128,6 +128,7 @@ class PhotoController extends ApiController
                     'model' => $photo->model,
                     'image' => $photo->image,
                     'categories' => $category_names,
+                    'updated_at' => date('d-m-Y h:i A', strtotime($photo->updated_at))
                 ]);
             }
 
