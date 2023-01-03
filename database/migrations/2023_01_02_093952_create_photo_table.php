@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('photo', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('description');
+            $table->longText('description');
             $table->string('make');
             $table->string('model');
             $table->string('image');

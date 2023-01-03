@@ -69,7 +69,9 @@ class PhotoController extends ApiController
                     'make' => $photo->make,
                     'model' => $photo->model,
                     'image' => $photo->image,
-                    'categories' => $category_names,
+                    'updated_at' => date('d-m-Y h:i A', strtotime($photo->updated_at)),
+                    'categories' => $category_names
+
                 ]);
             }
 
@@ -127,8 +129,8 @@ class PhotoController extends ApiController
                     'make' => $photo->make,
                     'model' => $photo->model,
                     'image' => $photo->image,
-                    'categories' => $category_names,
-                    'updated_at' => date('d-m-Y h:i A', strtotime($photo->updated_at))
+                    'updated_at' => date('d-m-Y h:i A', strtotime($photo->updated_at)),
+                    'categories' => $category_names
                 ]);
             }
 
