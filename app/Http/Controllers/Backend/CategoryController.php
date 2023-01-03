@@ -59,7 +59,6 @@ class CategoryController extends ApiController
                     'category_name' => $category->category_name,
                     'category_image' => $category->category_image,
                     'updated_at' => date('d-m-Y h:i A', strtotime($category->updated_at))
-
                 ]);
             }
 

@@ -13,7 +13,10 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::group(['namespace' => 'App\Http\Controllers\Backend'], function () {
+    Route::post('/v1/get-category', 'CategoryController@get');
+    Route::post('/v1/get-photos', 'PhotoController@get');
+    Route::post('/v1/get-photos-by-category', 'PhotoController@getPhotosByCateogry');
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
 });
+
