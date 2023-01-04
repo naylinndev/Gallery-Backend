@@ -51,7 +51,7 @@ class PhotoController extends ApiController
                     'msg'    => 'Something Wrong',
                 ]);
             }
-            $data = Photo::orderBy('created_at', 'asc')->paginate(20);
+            $data = Photo::orderBy('created_at', 'asc')->paginate(5);
             $arr = [];
 
 
@@ -111,7 +111,7 @@ class PhotoController extends ApiController
                     'msg'    => 'Something Wrong',
                 ]);
             }
-            $data = Photo::where('category_ids', 'LIKE', '%"' . $request['category_id'] . '"%')->orderBy('created_at', 'asc')->paginate(20);
+            $data = Photo::where('category_ids', 'LIKE', '%"' . $request['category_id'] . '"%')->orderBy('created_at', 'asc')->paginate(5);
             $arr = [];
 
 
