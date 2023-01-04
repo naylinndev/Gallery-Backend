@@ -58,7 +58,7 @@ class CategoryController extends ApiController
                     'id' => $category->id,
                     'category_name' => $category->category_name,
                     'category_image' => $category->category_image,
-                    'updated_at' => date('d-m-Y h:i A', strtotime($category->updated_at))
+                    'updated_at' => Carbon::parse($category->updated_at)->timestamp,
                 ]);
             }
 
