@@ -124,7 +124,12 @@ class PhotoController extends ApiController
                 $res = Category::whereIn('id', json_decode($photo->category_ids))->get();
                 $category_names = [];
                 foreach ($res as $obj) {
-                    array_push($category_names, ['category_id' => $obj->id, 'category_name' => $obj->category_name, 'category_image' => $obj->category_image]);
+                    array_push($category_names, [
+                        'id' => $obj->id, 
+                        'category_name' => $obj->category_name, 
+                        'category_image' => $obj->category_image,
+                        'updated_at' => Carbon::parse($obj->updated_at)->timestamp,
+                    ]);
                 }
 
                 array_push($arr, [
