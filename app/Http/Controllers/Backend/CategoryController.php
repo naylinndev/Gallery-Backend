@@ -49,7 +49,7 @@ class CategoryController extends ApiController
                     'msg'    => 'Something Wrong',
                 ]);
             }
-            $data = Category::orderBy('created_at', 'asc')->paginate(10);
+            $data = Category::orderBy('updated_at', 'desc')->paginate(10);
             $arr = [];
 
 
