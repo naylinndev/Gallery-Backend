@@ -10,8 +10,8 @@
   <meta content='@yield('author', '')' name='author'>
   <meta name="csrf-token" content="{{ csrf_token() }}">
   @yield('meta')
-<link rel="gataomo-icon" href="{{url('images/logo.png')}}">
-<link rel="shortcut icon" href="{{url('images/logo.png')}}">
+<link rel="gataomo-icon" href="{{url('images/ic_logo.png')}}">
+<link rel="shortcut icon" href="{{url('images/ic_logo.png')}}">
   {!! css([
     'global/css/bootstrap.min',
     'global/css/bootstrap-extend.min',
@@ -49,7 +49,7 @@
         <div class="panel"  style="width: 400px;">
           <div class="panel-body" style="padding-left: 30px !important; padding-right: 30px !important;padding-bottom: 30px !important;padding-top: 0px !important;">
             <div class="brand">
-              <img class="brand-img" src="{{url('images/logo.png')}}" alt="..." style="width: 100px;height: 100px;">
+              <img class="brand-img" src="{{url('images/ic_logo.png')}}" alt="..." style="width: 100px;height: 100px;">
               <h2 class="brand-text font-size-18" style="margin-top: 0px !important;">Gallery</h2>
             </div>
           <div class="alert alert-danger" id="login-alert" style="display:none">  </div>

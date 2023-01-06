@@ -10,8 +10,8 @@
   <meta content='@yield('author', '')' name='author'>
   <meta name="csrf-token" content="{{ csrf_token() }}">
   @yield('meta')
-<link rel="gataomo-icon" href="{{url('images/logo.png')}}">
-<link rel="shortcut icon" href="{{url('images/logo.png')}}">
+<link rel="gataomo-icon" href="{{url('images/ic_logo.png')}}">
+<link rel="shortcut icon" href="{{url('images/ic_logo.png')}}">
   @yield('before-styles')
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
