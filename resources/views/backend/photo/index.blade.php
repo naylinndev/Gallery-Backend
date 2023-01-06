@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-xl-6">
                 <h1 class="page-title">
-                  Category
+                Photo
                 </h1>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item ">
