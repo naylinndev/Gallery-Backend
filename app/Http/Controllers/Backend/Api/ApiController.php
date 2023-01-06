@@ -82,21 +82,6 @@ function getYoutubeIdFromUrl($url) {
   }
 
 
-  public function tokenGenerator()
-  {
-    $pool = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-    $code = substr(str_shuffle(str_repeat($pool, 5)), 0, 32);
-
-    $token  = DB::table('lucky_spin_log')->where('token', $code)->first();
-    if (!empty($token)) {
-      $code = $this->tokenGenerator();
-    } else {
-      return $code;
-    }
-  }
-
-
   /**
    * @param $statusCode
    *
@@ -194,44 +179,6 @@ function getYoutubeIdFromUrl($url) {
     ]);
   }
 
-  public function toFcm($notifiable)
-  {
-
-    $url = 'https://fcm.googleapis.com/fcm/send';
-
-    $headers = array(
-      //AIzaSyCOAoIUioLD7vm4zvg-ETbZAZPzSR12VI4
-      'Authorization: key=AIzaSyBDaIQEhDg0af58lHaUBFFi63_YEvayx_A',
-      'Content-Type: application/json',
-    );
-
-    // Open connection
-    $ch = curl_init();
-
-    // Set the url, number of POST vars, POST data
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-    // Disabling SSL Certificate support temporarly
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($notifiable));
-
-    // Execute post
-    $result = curl_exec($ch);
-    if ($result === false) {
-      die('Curl failed: ' . curl_error($ch));
-      // echo 'url failed'. curl_error($ch);
-    }
-
-    // Close connection
-    curl_close($ch);
-    // echo json_encode($fields1).'<br>';
-    //echo $result;
-
-  }
 
   public function getTimeAgo($carbonObject)
   {
