@@ -1,11 +1,14 @@
-#Gallery Backend with Laravel
+Gallery Backend with Laravel
+============================
 It's sample project which is written with SwiftUI.
 
-#Screenshot
+Screenshot
+==========
 Login          |  Dashboard     |  Photo
 :-------------------------:|:-------------------------:|:-------------------------:
 ![Login](./screenshot/login.png)  |  ![Dashboard](./screenshot/dashboard.png) |  ![Photo](./screenshot/photo.png)
 
 
-#Author
+Author
+======
 Nay Lin - @naylinndev on GitHub
